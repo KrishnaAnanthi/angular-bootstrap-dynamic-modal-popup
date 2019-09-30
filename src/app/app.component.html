@@ -1,0 +1,9 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>Welcome to {{ title }}!</h1>
+</div>
+<button class="btn btn-primary " (click)="openModal('modal1')">Open Modal1</button>
+<button class="btn btn-primary " (click)="openModal('modal2')">Open Modal2</button>
+<router-outlet></router-outlet>
+<app-modal1></app-modal1>
+<app-modal2></app-modal2>
